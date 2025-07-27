@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+assist.ipynb
+assistant.py
+asst_api.py
+email_log.txt
+library_management.py 
+list_operation.py
+main.py
+
+fast_api.py
+task.py
+task1.py
+task3.py
+.env
+
