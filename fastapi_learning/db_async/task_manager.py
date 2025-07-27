@@ -7,10 +7,10 @@ from sqlalchemy.orm import sessionmaker
 from contextlib import asynccontextmanager
 from sqlalchemy import select
 # from dotenv import load_dotenv
-from config import settings
+from config import Settings
 
 # load_dotenv()
-
+settings = Settings()
 
 class Task(SQLModel, table=True):
     id: int | None = Field(default = None, primary_key = True)

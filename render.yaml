@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fastapi-task-manager
+    runtime: python
+    buildCommand: uv sync
+    startCommand: ./start.sh
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:///./tasks.db
